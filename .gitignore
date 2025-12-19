@@ -1,1 +1,4 @@
 .env
+archivo_para_ignorar.html
+/node_modules
+archivo1.txt
