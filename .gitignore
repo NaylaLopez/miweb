@@ -1,4 +1,35 @@
-.env
-archivo_para_ignorar.html
-/node_modules
-archivo1.txt
+#Primer .gitignore armado por Gemini 
+
+# --- Archivos de Compilación ---
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# --- Librerías generadas (Artifacts) ---
+*.a
+*.so
+*.dll
+*.lib
+
+# --- Directorio de Binarios ---
+# Ignorar todo dentro de bin/ pero mantener la carpeta
+bin/*
+!bin/.gitkeep
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Editores e IDEs ---
+.vscode/
+.idea/
+*.swp
+*.suo
+*.user
+
+# --- Archivos temporales y Logs ---
+*.log
+*.tmp

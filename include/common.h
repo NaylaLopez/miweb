@@ -1,0 +1,1 @@
+//Definiciones comunes (ej. tipos de datos, booleanos)
